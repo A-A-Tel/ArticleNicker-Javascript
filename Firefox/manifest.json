@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Article Nicker",
+  "version": "1.0",
+  "description": "Allows users to get any news article for free",
+  "icons": {
+    "48": "icons/logo.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/logo.png"
+    },
+    "default_title": "Click to retrieve article"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
